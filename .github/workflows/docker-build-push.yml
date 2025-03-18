@@ -17,7 +17,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: danielrayappa/tdsga:first
+        tags: danielrayappa/tdsga:test
 name: Build and Push Docker Image
 'on':
   push:
